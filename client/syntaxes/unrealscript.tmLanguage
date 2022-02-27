@@ -75,19 +75,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:(var|class|function|int|float|bool|byte|enum|string|name|struct|Object|Actor|Pawn|extends))\b</string>
+			<string>\b(?i:(var|class|function|stop|enumcount|button|operator|preoperator|postoperator|int|float|bool|byte|enum|string|name|struct|delegate|pointer|event|vect|state|defaultproperties|Object|Actor|Pawn|extends))\b</string>
 			<key>name</key>
 			<string>storage.type.unrealscript</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:(local|const|native|placeable|simulated|event|private|protected|public|transient|config|localized|editable|static|singular|exec|final|array))\b</string>
+			<string>\b(?i:(local|const|native|nativeonly|nativereplication|nonativereplication|noexport|dllbind|placeable|simulated|event|private|protected|public|transient|duplicatetransient|noclear|config|latent|iterator|abstract|deprecated|cacheexempt|within|instanced|dependson|nontransient|config|guid|parseconfig|import|perobjectconfig|ignores|perobject|safereplace|nousercreate|autocollapsecategories|noimport|dontautocollapsecategories|autoexpandcategories|classgroup|out|optional|collapsecategories|editfixedsize|dontcollapsecategories|databinding|interp|dontsortcategories|nontransactional|init|replication|unreliable|editinline|repretry|allowabstract|skip|invariant|editinlinenew|repnotify|editinlineuse|noteditinlinenew|forcescriptorder|virtual|travel|input|globalconfig|automated|auto|hidecategories|showcategories|hidedropdown|unreliable|notplaceable|localized|editable|exportstructs|intrinsic|static|singular|exec|assert|final|edfindable|editconst|editconstarray|array))\b</string>
 			<key>name</key>
 			<string>storage.modifier.unrealscript</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:(none|self|this|true|false))\b</string>
+			<string>\b(?i:(none|self|this|true|false|super|global))\b</string>
 			<key>name</key>
 			<string>constant.language.unrealscript</string>
 		</dict>
