@@ -1,4 +1,4 @@
-# unrealscript-language-server
+# UNVSCript
 
 UnrealScript Language server and plugin for Visual Studio Code, based on [adamvoss/vscode-languageserver-java-example](https://github.com/adamvoss/vscode-languageserver-java-example).
 
